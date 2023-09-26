@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: swiftcord-landing
+  BUILD_PATH: "."
 
 jobs:
   build:

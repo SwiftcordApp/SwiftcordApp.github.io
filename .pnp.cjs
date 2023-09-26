@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.30"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:18.2.0"],\
+            ["sharp", "npm:0.32.6"],\
             ["vite", "virtual:b4842a3506d969853955d6c966592d80437b366fd0cf5ec94b8def2faaaee0b904889bd2d65f0a0713fa11f7a11af7bb33edec1193374f964d661f643acb2f7c#npm:4.4.9"]\
           ],\
           "linkType": "SOFT"\
@@ -2233,7 +2234,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["esbuild", [\
         ["npm:0.18.20", {\
-          "packageLocation": "./.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/",\
+          "packageLocation": "./.yarn/cache/esbuild-npm-0.18.20-004a76d281-5d253614e5.zip/node_modules/esbuild/",\
           "packageDependencies": [\
             ["esbuild", "npm:0.18.20"],\
             ["@esbuild/android-arm", "npm:0.18.20"],\
@@ -2262,7 +2263,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }],\
         ["npm:0.19.3", {\
-          "packageLocation": "./.yarn/unplugged/esbuild-npm-0.19.3-32eb4a916f/node_modules/esbuild/",\
+          "packageLocation": "./.yarn/cache/esbuild-npm-0.19.3-32eb4a916f-f998ba82b1.zip/node_modules/esbuild/",\
           "packageDependencies": [\
             ["esbuild", "npm:0.19.3"],\
             ["@esbuild/android-arm", "npm:0.19.3"],\
@@ -5401,6 +5402,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.30"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:18.2.0"],\
+            ["sharp", "npm:0.32.6"],\
             ["vite", "virtual:b4842a3506d969853955d6c966592d80437b366fd0cf5ec94b8def2faaaee0b904889bd2d65f0a0713fa11f7a11af7bb33edec1193374f964d661f643acb2f7c#npm:4.4.9"]\
           ],\
           "linkType": "SOFT"\

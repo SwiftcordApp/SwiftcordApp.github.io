@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac899857-f6ba-4407-9bea-c058aa0da1ce" name="Changes" comment="patch(README): add hero image and fix typo">
+    <list default="true" id="ac899857-f6ba-4407-9bea-c058aa0da1ce" name="Changes" comment="patch(seo): og meta tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <updated>1695698793535</updated>
       <workItem from="1695698794571" duration="2132000" />
       <workItem from="1695703089742" duration="6515000" />
-      <workItem from="1695714499379" duration="8538000" />
+      <workItem from="1695714499379" duration="9035000" />
     </task>
     <task id="LOCAL-00001" summary="feat: initial commit">
       <created>1695714627212</created>
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695724562361</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="patch(seo): og meta tags">
+      <created>1695725265682</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695725265682</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +186,7 @@
     <MESSAGE value="fix(yarn): allow building sharp" />
     <MESSAGE value="patch: meta and title for better SEO" />
     <MESSAGE value="patch(README): add hero image and fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="patch(README): add hero image and fix typo" />
+    <MESSAGE value="patch(seo): og meta tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="patch(seo): og meta tags" />
   </component>
 </project>

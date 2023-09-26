@@ -32,6 +32,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.22"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["astro", "npm:3.1.4"],\
+            ["autoprefixer", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:10.4.16"],\
+            ["postcss", "npm:8.4.30"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:18.2.0"],\
             ["vite", "virtual:b4842a3506d969853955d6c966592d80437b366fd0cf5ec94b8def2faaaee0b904889bd2d65f0a0713fa11f7a11af7bb33edec1193374f964d661f643acb2f7c#npm:4.4.9"]\
@@ -1478,6 +1480,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["autoprefixer", [\
+        ["npm:10.4.16", {\
+          "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.16-e5a0ee424d-45fad70864.zip/node_modules/autoprefixer/",\
+          "packageDependencies": [\
+            ["autoprefixer", "npm:10.4.16"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:10.4.16", {\
+          "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-543d1ce754/0/cache/autoprefixer-npm-10.4.16-e5a0ee424d-45fad70864.zip/node_modules/autoprefixer/",\
+          "packageDependencies": [\
+            ["autoprefixer", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:10.4.16"],\
+            ["@types/postcss", null],\
+            ["browserslist", "npm:4.21.11"],\
+            ["caniuse-lite", "npm:1.0.30001539"],\
+            ["fraction.js", "npm:4.3.6"],\
+            ["normalize-range", "npm:0.1.2"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["postcss", "npm:8.4.30"],\
+            ["postcss-value-parser", "npm:4.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss",\
+            "postcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["b4a", [\
         ["npm:1.6.4", {\
           "packageLocation": "./.yarn/cache/b4a-npm-1.6.4-080bcba845-81b086f9af.zip/node_modules/b4a/",\
@@ -2441,6 +2471,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["foreground-child", "npm:3.1.1"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["signal-exit", "npm:4.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fraction.js", [\
+        ["npm:4.3.6", {\
+          "packageLocation": "./.yarn/cache/fraction.js-npm-4.3.6-233f81170c-e96ae77e64.zip/node_modules/fraction.js/",\
+          "packageDependencies": [\
+            ["fraction.js", "npm:4.3.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4210,6 +4249,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["normalize-range", [\
+        ["npm:0.1.2", {\
+          "packageLocation": "./.yarn/cache/normalize-range-npm-0.1.2-bec5e259e2-9b2f14f093.zip/node_modules/normalize-range/",\
+          "packageDependencies": [\
+            ["normalize-range", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["npm-run-path", [\
         ["npm:5.1.0", {\
           "packageLocation": "./.yarn/cache/npm-run-path-npm-5.1.0-79c0668d42-dc184eb5ec.zip/node_modules/npm-run-path/",\
@@ -4471,6 +4519,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nanoid", "npm:3.3.6"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["postcss-value-parser", [\
+        ["npm:4.2.0", {\
+          "packageLocation": "./.yarn/cache/postcss-value-parser-npm-4.2.0-3cef602a6a-819ffab0c9.zip/node_modules/postcss-value-parser/",\
+          "packageDependencies": [\
+            ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5340,6 +5397,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.22"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["astro", "npm:3.1.4"],\
+            ["autoprefixer", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:10.4.16"],\
+            ["postcss", "npm:8.4.30"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:526eddf6adab81f220b755667999fb98d46dec9be9b8408bf2dd6526ad8b702e64e41cb0e27540b37a73821764201a3aa78d7dc15919b9aecd673978ff8bfda8#npm:18.2.0"],\
             ["vite", "virtual:b4842a3506d969853955d6c966592d80437b366fd0cf5ec94b8def2faaaee0b904889bd2d65f0a0713fa11f7a11af7bb33edec1193374f964d661f643acb2f7c#npm:4.4.9"]\

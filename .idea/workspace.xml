@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac899857-f6ba-4407-9bea-c058aa0da1ce" name="Changes" comment="refactor: move astro project to root&#10;&#10;having it nested in a subfolder wasn't a good idea anyways">
+    <list default="true" id="ac899857-f6ba-4407-9bea-c058aa0da1ce" name="Changes" comment="fix(astro): add sharp for image optimisation">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-astro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-astro.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pnp.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarnrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.yarnrc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <updated>1695698793535</updated>
       <workItem from="1695698794571" duration="2132000" />
       <workItem from="1695703089742" duration="6515000" />
-      <workItem from="1695714499379" duration="6747000" />
+      <workItem from="1695714499379" duration="7144000" />
     </task>
     <task id="LOCAL-00001" summary="feat: initial commit">
       <created>1695714627212</created>
@@ -123,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695722046666</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix(astro): add sharp for image optimisation">
+      <created>1695723387644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695723387644</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +156,7 @@
     <MESSAGE value="feat: skeleton" />
     <MESSAGE value="patch(astro): configure GitHub pages site" />
     <MESSAGE value="refactor: move astro project to root&#10;&#10;having it nested in a subfolder wasn't a good idea anyways" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: move astro project to root&#10;&#10;having it nested in a subfolder wasn't a good idea anyways" />
+    <MESSAGE value="fix(astro): add sharp for image optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(astro): add sharp for image optimisation" />
   </component>
 </project>

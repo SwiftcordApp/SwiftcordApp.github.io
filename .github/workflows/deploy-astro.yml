@@ -41,7 +41,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
-        run: ${{ env.PACKAGE_MANAGER }} install --immutable --immutable-cache
+        run: ${{ env.PACKAGE_MANAGER }} install
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: |
